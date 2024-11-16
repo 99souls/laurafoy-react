@@ -1,5 +1,5 @@
 import { useLocation } from 'react-router-dom';
-import logo from './../../assets/logo.svg';
+import logo from './../../assets/Universal/logo.svg';
 import NavItem from './components/NavItem';
 import './styles.css';
 
@@ -24,7 +24,7 @@ const NavBar = () => {
       </NavItem>
 
       <NavItem
-        classNames="bitter-700 fs-24 nav-item"
+        classNames="bitter fw-700 fs-24 nav-item"
         navURL={'/'}
         isCurrentPage={getIsCurrentPage('/')}
       >
@@ -32,7 +32,7 @@ const NavBar = () => {
       </NavItem>
 
       <NavItem
-        classNames="bitter-700 fs-24 nav-item"
+        classNames="bitter fw-700 fs-24 nav-item"
         navURL={'/about'}
         isCurrentPage={getIsCurrentPage('/about')}
       >

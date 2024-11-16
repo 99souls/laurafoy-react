@@ -1,0 +1,28 @@
+.projectDetailsContainer {
+  display: flex;
+  gap: 3rem;
+  margin: 4vw 0;
+  height: 40vw;
+}
+
+.projectDetailsText {
+  min-width: 30%;
+}
+
+.projectDetailsImage {
+  height: 40vw;
+  max-width: 600px;
+  border-radius: 25px;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.projectNumber {
+  margin-top: 0;
+  padding-bottom: 0;
+}
+
+.projectDescription {
+  margin-top: 20vw;
+}

@@ -1,0 +1,16 @@
+.aboutSectionContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  max-height: 350px;
+  width: inherit;
+}
+
+.aboutTextContainer {
+  max-width: 725px;
+}
+
+.portrait {
+  width: 350px;
+  height: 350px;
+}

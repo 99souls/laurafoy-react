@@ -1,5 +1,5 @@
 .nav-bar {
-  margin: 12px 12px;
+  margin: 12px 24px;
   backdrop-filter: blur(20px);
   display: flex;
   flex-direction: row;
@@ -11,6 +11,10 @@
 .nav-item {
   gap: 16px;
   padding: 0 0.5rem;
+}
+
+.nav-item:hover {
+  background-color: #d4d4d4;
 }
 
 .to-start {
@@ -27,5 +31,4 @@
   padding: 0 1rem;
   margin: 0 8px;
   cursor: pointer;
-  color: #0c0c0c;
 }
