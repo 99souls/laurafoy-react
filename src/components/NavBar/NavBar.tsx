@@ -8,55 +8,46 @@ const getIsCurrentPage = (destinationURL: string) => {
   return location.pathname === destinationURL;
 };
 
-const NavBar = () => {
+interface NavBarProps {
+  hideNavButtons?: boolean;
+}
+
+const NavBar: React.FC<NavBarProps> = ({ hideNavButtons }) => {
   return (
-    <div className="nav-bar">
+    <div className='nav-bar'>
       <NavItem
-        classNames="to-start"
+        classNames='to-start'
         navURL={'/'}
       >
         <img
           src={logo}
-          alt="Laura Foy Logo"
-          aria-label="Laura Foy Logo"
-          height="36px"
+          alt='Laura Foy Logo'
+          aria-label='Laura Foy Logo'
+          height='36px'
         />
       </NavItem>
 
-      <NavItem
-        classNames="bitter fw-700 fs-24 nav-item"
-        navURL={'/'}
-        isCurrentPage={getIsCurrentPage('/')}
-      >
-        HOME
-      </NavItem>
+      {!hideNavButtons ? (
+        <>
+          <NavItem
+            classNames='bitter fw-700 fs-24 nav-item'
+            navURL={'/'}
+            isCurrentPage={getIsCurrentPage('/')}
+          >
+            HOME
+          </NavItem>
 
-      <NavItem
-        classNames="bitter fw-700 fs-24 nav-item"
-        navURL={'/insertnamehere'}
-        isCurrentPage={getIsCurrentPage('/insertnamehere')}
-      >
-        insertnamehere
-      </NavItem>
-
-      {/* <NavItem
-        classNames="to-end"
-        navURL={'https://www.linkedin.com/in/laura-foy-91715b1bb/'}
-      >
-        <img
-          src={linkedin_icon}
-          alt="Link to LinkedIn"
-          aria-label="Link to LinkedIn account"
-        />
-      </NavItem>
-
-      <NavItem navURL={'https://www.linkedin.com/in/laura-foy-91715b1bb/'}>
-        <img
-          src={instagram_icon}
-          alt="Link to Instagram"
-          aria-label="Link to Instagram account"
-        />
-      </NavItem> */}
+          <NavItem
+            classNames='bitter fw-700 fs-24 nav-item'
+            navURL={'/insertnamehere'}
+            isCurrentPage={getIsCurrentPage('/insertnamehere')}
+          >
+            insertnamehere
+          </NavItem>
+        </>
+      ) : (
+        ''
+      )}
     </div>
   );
 };

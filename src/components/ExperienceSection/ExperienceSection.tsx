@@ -2,8 +2,8 @@ interface ExperienceSectionProps {}
 
 const ExperienceSection: React.FC<ExperienceSectionProps> = () => {
   return (
-    <div className="contentSection">
-      <h2 className="bitter">MY EXPERIENCE</h2>
+    <div className='contentSection'>
+      <h2 className='bitter'>MY EXPERIENCE</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
         dolores vitae eos quasi placeat. At voluptatibus, reiciendis nemo nam

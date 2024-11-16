@@ -5,22 +5,22 @@ import './styles.css';
 
 const ProjectListing = () => {
   return (
-    <div className="projectListingContainer">
-      <h2 className="bitter">MY PROJECTS</h2>
+    <div className='projectListingContainer'>
+      <h2 className='bitter'>MY PROJECTS</h2>
       <ProjectDetails
-        projectTitle="OSTINATO"
-        projectNumber="01"
+        projectTitle='OSTINATO'
+        projectNumber='01'
         projectImage={ostinato}
-        projectUrl="ostinato"
+        projectUrl='ostinato'
       >
         For my final year project I designed an app that uses AI technology to
         reimagine music education.
       </ProjectDetails>
       <ProjectDetails
-        projectTitle="SYNERGY LEARNING"
-        projectNumber="02"
+        projectTitle='SYNERGY LEARNING'
+        projectNumber='02'
         projectImage={synergy_learning}
-        projectUrl="synergy"
+        projectUrl='synergy'
       >
         I had the privilege of spending a year on placement at Synergy Learning
         as a UX design intern.

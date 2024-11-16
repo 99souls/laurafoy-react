@@ -13,7 +13,7 @@ const LinkButton: React.FC<LinkButtonProps> = ({
   return (
     <a
       href={destinationURL}
-      className="button fw-900 fs-24 bitter"
+      className='button fw-900 fs-24 bitter'
     >
       {children}
     </a>

@@ -17,18 +17,18 @@ const ProjectDetails: React.FC<ProjectDetailsProps> = ({
   children,
 }) => {
   return (
-    <div className="projectDetailsContainer">
-      <div className="projectDetailsText">
-        <p className="projectNumber fs-24">PROJECT {projectNumber}</p>
-        <div className="projectDescription">
-          <h2 className="bitter">{projectTitle}</h2>
+    <div className='projectDetailsContainer'>
+      <div className='projectDetailsText'>
+        <p className='projectNumber fs-24'>PROJECT {projectNumber}</p>
+        <div className='projectDescription'>
+          <h2 className='bitter'>{projectTitle}</h2>
           <p>{children}</p>
           <LinkButton destinationURL={`/${projectUrl}`}>SEE MORE</LinkButton>
         </div>
       </div>
-      <div className="projectDetailsImage">
+      <div className='projectDetailsImage'>
         <img
-          className="projectDetailsImage"
+          className='projectDetailsImage'
           src={projectImage}
         ></img>
       </div>

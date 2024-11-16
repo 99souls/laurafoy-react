@@ -4,9 +4,9 @@ import './styles.css';
 
 const AboutSection = () => {
   return (
-    <div className="aboutSectionContainer">
-      <div className="aboutTextContainer">
-        <h1 className="bitter">HI! I'M LAURA FOY</h1>
+    <div className='aboutSectionContainer'>
+      <div className='aboutTextContainer'>
+        <h1 className='bitter'>HI! I'M LAURA FOY</h1>
         <p>
           A digital designer who loves designing accessible and intuitive
           interfaces in bold, exciting and imaginative ways. I enjoy solving
@@ -16,10 +16,10 @@ const AboutSection = () => {
         </p>
         <LinkButton>MY CV</LinkButton>
       </div>
-      <div className="aboutPictureContainer">
+      <div className='aboutPictureContainer'>
         <img
           src={portrait}
-          className="portrait"
+          className='portrait'
         ></img>
       </div>
     </div>

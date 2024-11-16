@@ -2,16 +2,18 @@
   display: flex;
   gap: 3rem;
   margin: 4vw 0;
-  height: 40vw;
+  height: 30vw;
 }
 
 .projectDetailsText {
+  display: flex;
+  flex-direction: column;
   min-width: 30%;
 }
 
 .projectDetailsImage {
-  height: 40vw;
-  max-width: 600px;
+  height: 30vw;
+  max-width: 30vw;
   border-radius: 25px;
   background-position: 50%;
   background-repeat: no-repeat;
@@ -24,5 +26,5 @@
 }
 
 .projectDescription {
-  margin-top: 20vw;
+  margin-top: auto;
 }

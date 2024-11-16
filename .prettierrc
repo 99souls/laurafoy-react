@@ -7,7 +7,7 @@
   "bracketSpacing": true,
   "arrowParens": "always",
   "bracketSameLine": false,
-  "jsxSingleQuote": false,
+  "jsxSingleQuote": true,
   "semi": true,
   "singleAttributePerLine": true
 }
