@@ -1,5 +1,5 @@
 {
-  "printWidth": 120,
+  "printWidth": 80,
   "tabWidth": 2,
   "useTabs": false,
   "singleQuote": true,
@@ -8,5 +8,6 @@
   "arrowParens": "always",
   "bracketSameLine": false,
   "jsxSingleQuote": false,
-  "semi": true
+  "semi": true,
+  "singleAttributePerLine": true
 }

@@ -1,0 +1,31 @@
+.nav-bar {
+  margin: 12px 12px;
+  backdrop-filter: blur(20px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 3em;
+}
+
+.nav-item {
+  gap: 16px;
+  padding: 0 0.5rem;
+}
+
+.to-start {
+  margin-right: auto;
+}
+
+.to-end {
+  margin-left: auto;
+}
+
+.active-nav-item {
+  border-radius: 4px;
+  background-color: #fff968;
+  padding: 0 1rem;
+  margin: 0 8px;
+  cursor: pointer;
+  color: #0c0c0c;
+}
