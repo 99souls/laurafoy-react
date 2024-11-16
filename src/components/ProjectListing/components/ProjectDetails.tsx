@@ -2,16 +2,18 @@ import { ReactNode } from 'react';
 import LinkButton from '../../Button/LinkButton';
 
 interface ProjectDetailsProps {
-  projectTitle?: string;
-  projectImage?: string;
-  projectNumber?: string;
-  children?: ReactNode;
+  projectTitle: string;
+  projectImage: string;
+  projectNumber: string;
+  projectUrl: string;
+  children: ReactNode;
 }
 
 const ProjectDetails: React.FC<ProjectDetailsProps> = ({
   projectTitle,
   projectImage,
   projectNumber,
+  projectUrl,
   children,
 }) => {
   return (
@@ -21,7 +23,7 @@ const ProjectDetails: React.FC<ProjectDetailsProps> = ({
         <div className="projectDescription">
           <h2 className="bitter">{projectTitle}</h2>
           <p>{children}</p>
-          <LinkButton destinationURL="/ostinato">SEE MORE</LinkButton>
+          <LinkButton destinationURL={`/${projectUrl}`}>SEE MORE</LinkButton>
         </div>
       </div>
       <div className="projectDetailsImage">

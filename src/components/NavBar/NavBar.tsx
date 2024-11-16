@@ -33,10 +33,10 @@ const NavBar = () => {
 
       <NavItem
         classNames="bitter fw-700 fs-24 nav-item"
-        navURL={'/about'}
-        isCurrentPage={getIsCurrentPage('/about')}
+        navURL={'/insertnamehere'}
+        isCurrentPage={getIsCurrentPage('/insertnamehere')}
       >
-        ABOUT
+        insertnamehere
       </NavItem>
 
       {/* <NavItem
