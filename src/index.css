@@ -41,15 +41,19 @@
 }
 
 .fs-32 {
-  font-size: 2em;
+  font-size: 2rem;
 }
 
 .fs-24 {
-  font-size: 1.5em;
+  font-size: 1.5rem;
+}
+
+.fs-20 {
+  font-size: 1.25rem;
 }
 
 .fs-16 {
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 a {
@@ -66,16 +70,31 @@ html {
 }
 
 h1 {
+  font-family: 'recent-grotesk', sans-serif;
+  font-style: normal;
+
+  font-weight: 700;
   font-size: 4rem;
   margin: 0;
 }
 
 h2 {
-  font-size: 3rem;
+  font-family: 'recent-grotesk', sans-serif;
   font-style: normal;
+
+  font-size: 3rem;
   font-weight: 700;
   line-height: 75% !important;
   display: contents;
+}
+
+h3 {
+  font-family: 'recent-grotesk', sans-serif;
+  font-style: normal;
+
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 75%;
 }
 
 p {

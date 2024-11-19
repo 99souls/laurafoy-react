@@ -1,9 +1,9 @@
 @media only screen and (max-width: 700px) {
-  .aboutSectionContainer {
+  .aboutPageSectionContainer {
     flex-direction: column;
   }
 
-  .aboutTextContainer {
+  .aboutPageTextContainer {
     width: auto;
     gap: 1rem;
   }
@@ -12,7 +12,7 @@
     text-align: center;
   }
 
-  .aboutTextContainer > p {
+  .aboutPageTextContainer > p {
     font-size: 1rem;
   }
 }

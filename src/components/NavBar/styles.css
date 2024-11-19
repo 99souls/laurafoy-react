@@ -1,5 +1,7 @@
 .nav-bar {
-  margin: 1rem 2rem;
+  /* position: sticky;
+  top: 0; */
+  padding: 1rem 2rem;
   backdrop-filter: blur(20px);
   display: flex;
   flex-direction: row;

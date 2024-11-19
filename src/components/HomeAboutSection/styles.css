@@ -1,6 +1,6 @@
 .aboutSectionContainer {
   display: flex;
-  justify-content: flex-start;
+  justify-content: left;
   align-items: flex-start;
   flex-direction: column;
   gap: 2rem;

@@ -2,9 +2,10 @@ import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './index.css';
+import About from './pages/About/About';
 import Home from './pages/Home/Home';
 import PageNotFound from './pages/PageNotFound/PageNotFound';
-import About from './pages/About/About';
+import Synergy from './pages/Synergy/Synergy';
 
 const router = createBrowserRouter([
   {
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
   {
     path: 'about',
     element: <About />,
+  },
+  {
+    path: 'synergy',
+    element: <Synergy />,
   },
   {
     path: '*',

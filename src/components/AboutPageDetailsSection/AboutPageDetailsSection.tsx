@@ -5,8 +5,8 @@ import './styles.css';
 
 const AboutPageDetailsSection = () => {
   return (
-    <div className='aboutSectionContainer'>
-      <div className='aboutTextContainer'>
+    <div className='aboutPageSectionContainer'>
+      <div className='aboutPageTextContainer'>
         <h1 className='recent-grotesk'>ABOUT ME</h1>
         <p className='fs-24 fw-500'>
           I'm Laura Foy, a visual designer who loves designing accessible and
