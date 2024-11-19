@@ -1,15 +1,15 @@
-import AboutSection from '../../components/AboutSection/AboutSection';
 import Footer from '../../components/Footer/Footer';
+import HomeAboutSection from '../../components/HomeAboutSection/HomeAboutSection';
 import NavBar from '../../components/NavBar/NavBar';
 import ProjectListing from '../../components/ProjectListing/ProjectListing';
 import './Home.css';
 
-const Home = () => {
+export const Home = () => {
   return (
     <>
-      <NavBar hideNavButtons={true} />
+      <NavBar />
       <div className='contentContainer'>
-        <AboutSection />
+        <HomeAboutSection />
         <ProjectListing />
       </div>
       <Footer />

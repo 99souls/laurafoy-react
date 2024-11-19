@@ -1,13 +1,20 @@
 .footer {
   display: flex;
   justify-content: center;
-  padding-top: 56px;
-  padding-bottom: 200px;
+  padding-top: 3rem;
+  padding-bottom: 12rem;
 }
 
 .contactContainer {
   display: flex;
   align-items: center;
   flex-direction: row;
-  gap: 64px;
+  gap: 4rem;
+}
+
+.contactLinksContainer {
+  display: inherit;
+  align-items: inherit;
+  flex-direction: row;
+  gap: inherit;
 }

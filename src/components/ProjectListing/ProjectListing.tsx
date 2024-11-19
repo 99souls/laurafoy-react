@@ -1,30 +1,43 @@
+// import ostinato from './../../assets/ProjectListing/ostinato.png';
+// import synergy_learning from './../../assets/ProjectListing/synergy_learning.png';
+// import ProjectDetails from './components/ProjectDetails';
 import ostinato from './../../assets/ProjectListing/ostinato.png';
-import synergy_learning from './../../assets/ProjectListing/synergy_learning.png';
-import ProjectDetails from './components/ProjectDetails';
+import synergy from './../../assets/ProjectListing/synergy.png';
+import ProjectCard from './components/ProjectCard.tsx/ProjectCard';
 import './styles.css';
+
+const recentWorks = [
+  {
+    projectURL: 'ostinato', // THIS NEEDS TO BE LOWERCASE!!!
+    vanityTitle: 'Ostinato',
+    projectImage: ostinato,
+    isDarkMode: true,
+  },
+  {
+    projectURL: 'synergy',
+    vanityTitle: 'Synergy Learning Internship',
+    projectImage: synergy,
+    isDarkMode: false,
+  },
+];
 
 const ProjectListing = () => {
   return (
     <div className='projectListingContainer'>
-      <h2 className='bitter'>MY PROJECTS</h2>
-      <ProjectDetails
-        projectTitle='OSTINATO'
-        projectNumber='01'
-        projectImage={ostinato}
-        projectUrl='ostinato'
-      >
-        For my final year project I designed an app that uses AI technology to
-        reimagine music education.
-      </ProjectDetails>
-      <ProjectDetails
-        projectTitle='SYNERGY LEARNING'
-        projectNumber='02'
-        projectImage={synergy_learning}
-        projectUrl='synergy'
-      >
-        I had the privilege of spending a year on placement at Synergy Learning
-        as a UX design intern.
-      </ProjectDetails>
+      <h2 className='recent-grotesk'>RECENT WORK</h2>
+
+      <div className='projectCardsContainer'>
+        {recentWorks.map((item) => {
+          return (
+            <ProjectCard
+              projectTitle={item.vanityTitle}
+              projectImage={item.projectImage}
+              isDarkMode={item.isDarkMode}
+              projectURL={item.projectURL}
+            />
+          );
+        })}
+      </div>
     </div>
   );
 };

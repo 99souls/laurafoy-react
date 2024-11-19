@@ -9,3 +9,60 @@
   justify-content: flex-start;
   gap: 100px;
 }
+
+@media only screen and (max-width: 1250px) {
+  body {
+    font-size: 0.75rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .contentContainer {
+    margin: 0 0.5rem;
+    width: auto;
+    padding: 3rem 0;
+  }
+
+  .logo-monogram {
+    height: 40px;
+    width: auto;
+  }
+
+  .navBar {
+    margin: 0 0.5rem;
+    width: 100%;
+  }
+
+  .navItemGroup {
+    flex-direction: row;
+  }
+
+  .aboutSectionContainer {
+    width: auto;
+  }
+
+  .projectCardsContainer {
+    grid-template-columns: auto;
+  }
+
+  .projectListingContainer {
+    width: 100%;
+  }
+  .projectCardImage {
+    margin: 0 0.5rem;
+    width: auto;
+    height: 300px;
+  }
+
+  .contactContainer {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .footer {
+    width: 100%;
+    padding-bottom: 6rem;
+  }
+}

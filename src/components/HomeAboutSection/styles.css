@@ -1,0 +1,27 @@
+.aboutSectionContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 2rem;
+  width: 800px;
+}
+
+.aboutTextContainer {
+  display: inherit;
+  flex-direction: inherit;
+  width: inherit;
+  gap: 2rem;
+}
+
+.portrait {
+  width: 350px;
+  height: 350px;
+}
+
+.homeAboutContents {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.04em;
+  line-height: 32px;
+}

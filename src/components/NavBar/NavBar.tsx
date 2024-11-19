@@ -1,5 +1,5 @@
 import { useLocation } from 'react-router-dom';
-import logo from './../../assets/Universal/logo.svg';
+import logo from './../../assets/universal/logo.svg';
 import NavItem from './components/NavItem';
 import './styles.css';
 
@@ -16,37 +16,33 @@ const NavBar: React.FC<NavBarProps> = ({ hideNavButtons }) => {
   return (
     <div className='nav-bar'>
       <NavItem
-        classNames='to-start'
         navURL={'/'}
+        classNames='logo'
       >
         <img
           src={logo}
           alt='Laura Foy Logo'
           aria-label='Laura Foy Logo'
-          height='36px'
+          className='logo-monogram'
         />
       </NavItem>
-
-      {!hideNavButtons ? (
-        <>
+      {!hideNavButtons && (
+        <div className='navItemGroup'>
           <NavItem
-            classNames='bitter fw-700 fs-24 nav-item'
+            classNames='recent-grotesk fw-700 fs-32 nav-item'
             navURL={'/'}
             isCurrentPage={getIsCurrentPage('/')}
           >
             HOME
           </NavItem>
-
           <NavItem
-            classNames='bitter fw-700 fs-24 nav-item'
-            navURL={'/insertnamehere'}
-            isCurrentPage={getIsCurrentPage('/insertnamehere')}
+            classNames='recent-grotesk fw-700 fs-32 nav-item'
+            navURL={'/about'}
+            isCurrentPage={getIsCurrentPage('/about')}
           >
-            insertnamehere
+            ABOUT
           </NavItem>
-        </>
-      ) : (
-        ''
+        </div>
       )}
     </div>
   );
