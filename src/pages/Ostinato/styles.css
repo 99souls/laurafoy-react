@@ -1,0 +1,176 @@
+.ostinatoWrapper {
+  color: #f8f8f8;
+  background-color: #131111;
+}
+
+.ostinatoContainer {
+  max-width: 1200px;
+  margin: auto;
+
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.ostinatoContainer p {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.32px;
+  margin: 0 !important;
+}
+
+.ostinatoHeader {
+  height: 600px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+
+  background-image: url(../../assets/ostinato/ostinato_banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.ostinatoBanner {
+  width: 100%;
+  background-image: url(../../assets/ostinato/ostinato_banner_2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ostinatoBannerTextContainer {
+  font-size: 1rem !important;
+  max-width: 660px;
+  text-align: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.ostinatoLogo {
+  max-width: 100%;
+}
+
+.ostinatoSubtitle {
+  max-width: 625px;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.ostinatoGap {
+  gap: 3rem;
+}
+
+.ostinatoTextGap {
+  display: flex;
+  flex-direction: inherit;
+  gap: 4rem;
+}
+
+/* .ostinatoTextSection {
+  display: flex;
+  flex-direction: column;
+} */
+
+.ostinatoSectionGap {
+  display: inherit;
+  flex-direction: inherit;
+  gap: 1.25rem;
+}
+
+.topContentRow {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+  gap: 3rem;
+}
+
+@media only screen and (max-width: 1250px) {
+  .ostinatoHeader {
+    max-height: 400px;
+  }
+  .containerMargin {
+    margin: 0 1rem;
+  }
+
+  .ostinatoContainer {
+    margin: 1rem;
+  }
+
+  .hideForMobile {
+    display: none;
+  }
+
+  .ostinatoGap {
+    gap: 1.5rem;
+  }
+  .ostinatoSectionGap {
+    gap: 0.75rem;
+  }
+  .columnHalf {
+    max-width: 50%;
+  }
+  .ostinatoTextGap {
+    margin-top: 1rem;
+  }
+
+  .ostinatoImages {
+    max-width: 100%;
+  }
+
+  .ostinatoBannerTextContainer > h1 {
+    font-size: 4rem;
+  }
+
+  .ostinatoBannerTextContainer > p {
+    margin: 0 1rem;
+  }
+
+  @media only screen and (max-width: 900px) {
+    .topContentRow {
+      grid-template-columns: auto;
+      grid-template-rows: auto auto;
+    }
+
+    .blueAccordionImage {
+      grid-column: 1;
+      grid-row: 2;
+    }
+
+    .topContentText {
+      grid-column: 1;
+      grid-row: 1;
+    }
+
+    .ostinatoContainer {
+      gap: 2rem;
+    }
+
+    .ostinatoContainer > .row {
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .carouselImage {
+      max-width: 100%;
+      max-height: 100%;
+    }
+
+    .columnHalf {
+      max-width: 100%;
+    }
+  }
+}

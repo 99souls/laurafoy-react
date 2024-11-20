@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './index.css';
 import About from './pages/About/About';
 import Home from './pages/Home/Home';
+import Ostinato from './pages/Ostinato/Ostinato';
 import PageNotFound from './pages/PageNotFound/PageNotFound';
 import Synergy from './pages/Synergy/Synergy';
 
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
   {
     path: 'synergy',
     element: <Synergy />,
+  },
+  {
+    path: 'ostinato',
+    element: <Ostinato />,
   },
   {
     path: '*',

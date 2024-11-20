@@ -1,0 +1,52 @@
+.carousel {
+  position: relative;
+}
+
+.carouselImage {
+  border-radius: 16px;
+  max-height: 600px;
+  max-width: 600px;
+}
+
+.carouselButton {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+  height: 40px;
+  width: 40px;
+  background: rgb(212 212 212 / 40%);
+  border: none;
+  cursor: pointer;
+}
+
+.carouselButton-left {
+  left: 0;
+  border-radius: 0 4px 4px 0;
+}
+
+.carouselButton-right {
+  right: 0;
+  border-radius: 4px 0 0 4px;
+}
+
+.carouselIndicatorRow {
+  margin: 0.5rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.carouselIndicator {
+  border: 0;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  margin: 0 10px;
+  background: #3a3a3a;
+  cursor: pointer;
+}
+
+.carouselIndicator-active {
+  background: #808080;
+}
