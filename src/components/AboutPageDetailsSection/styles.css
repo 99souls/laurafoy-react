@@ -12,7 +12,7 @@
   display: inherit;
   flex-direction: column;
   gap: 2rem;
-  width: 725px;
+  max-width: 725px;
 }
 
 .portrait {

@@ -1,6 +1,28 @@
-.card {
+.notFoundContainer {
   display: flex;
+  flex-direction: column;
+  gap: 4rem;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  height: calc(100vh - 130px);
+
+  background-image: url(../../assets/404/notFoundPattern.png);
+  background-repeat: repeat;
+}
+
+.notFoundImage {
+  max-width: 650px;
+}
+
+.notFoundText {
+  font-size: 2.5rem;
+}
+
+@media only screen and (max-width: 1250px) {
+  .notFoundContainer {
+    padding: 1rem;
+  }
+  .notFoundImage {
+    max-width: 100%;
+  }
 }

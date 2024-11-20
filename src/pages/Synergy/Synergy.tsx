@@ -10,7 +10,6 @@ import login_img from './../../assets/synergy/login_img.png';
 import support_icons from './../../assets/synergy/support_icons.png';
 import ux_icon from './../../assets/synergy/ux_icon.png';
 import './styles.css';
-
 const Synergy = () => {
   return (
     <>
@@ -44,7 +43,7 @@ const Synergy = () => {
             <p className='fs-16'>
               My role was a UX intern within the UX Circle, working alongside
               three frontend developers, a UX designer and a UX consultant - a
-              small team with big responsibilities .
+              small team with big responsibilities.
             </p>
             <p className='fs-16'>
               The LMS world was completely new to me. This was also my first
@@ -61,7 +60,9 @@ const Synergy = () => {
         </section>
         <section className='synergyTasks'>
           <h2>My Tasks</h2>
-          <p>Here are some of the tasks I undertook in my role:</p>
+          <p className='pt-2'>
+            Here are some of the tasks I undertook in my role:
+          </p>
           <div className='synergyTopic'>
             <h3>VISUAL REVIEWS</h3>
             <p>
