@@ -50,14 +50,14 @@ const Carousel: React.FC<CarouselProps> = ({ slides }) => {
         />
       </button>
       <div className='carouselIndicatorRow'>
-        {slides.map((slide, index) => {
+        {slides.map((...props) => {
           return (
             <button
               onClick={() => {
-                setCurrentIndex(index);
+                setCurrentIndex(props[1]);
               }}
               className={`carouselIndicator ${
-                index === currentIndex ? 'carouselIndicator-active' : ''
+                props[1] === currentIndex ? 'carouselIndicator-active' : ''
               }`}
             />
           );

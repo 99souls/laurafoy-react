@@ -20,18 +20,13 @@
   }
 
   .contentContainer {
-    margin: 0 0.5rem;
+    margin: 0 1.5rem;
     padding: 3rem 0;
   }
 
   .logo-monogram {
     height: 40px;
     width: auto;
-  }
-
-  .navBar {
-    margin: 0 0.5rem;
-    width: 100%;
   }
 
   .navItemGroup {
@@ -50,7 +45,6 @@
     width: 100%;
   }
   .projectCardImage {
-    margin: 0 0.5rem;
     width: auto;
     height: 300px;
   }

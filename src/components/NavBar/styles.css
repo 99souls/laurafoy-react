@@ -1,6 +1,4 @@
 .nav-bar {
-  /* position: sticky;
-  top: 0; */
   padding: 1rem 2rem;
   backdrop-filter: blur(20px);
   display: flex;
@@ -42,8 +40,6 @@
 }
 
 .logo {
-  width: 100px;
-  height: 66px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -51,8 +47,13 @@
 }
 
 .logo-monogram {
-  width: 100px;
   position: relative;
   height: 65.9px;
   object-fit: cover;
+}
+
+@media only screen and (max-width: 1250px) {
+  .nav-bar {
+    padding: 1rem 1rem;
+  }
 }

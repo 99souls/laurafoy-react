@@ -11,14 +11,15 @@
   margin-bottom: 8rem;
   display: flex;
   flex-direction: column;
-  gap: 5rem;
+  gap: 6rem;
 }
 
 .ostinatoContainer p {
   font-size: 1rem;
+  line-height: 1.375rem;
+
   font-style: normal;
   font-weight: 400;
-  line-height: 22px;
   letter-spacing: 0.32px;
   margin: 0 !important;
 }
@@ -56,7 +57,7 @@
   max-width: 660px;
   text-align: center;
   flex-direction: column;
-  gap: 16px;
+  gap: 1rem;
 }
 
 .ostinatoLogo {
@@ -71,7 +72,7 @@
 }
 
 .ostinatoGap {
-  gap: 3rem;
+  gap: 5rem;
 }
 
 .ostinatoTextGap {
@@ -98,7 +99,38 @@
   gap: 3rem;
 }
 
+.customGridOrientation {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+}
+
+.paragraphImagePair {
+  width: 900px;
+  margin: auto;
+}
+
+.paragraphImagePair > p {
+  padding-bottom: 1rem;
+}
+
+.ostinatoGap a {
+  color: #000 !important;
+}
+
+.mw-900 {
+  max-width: 900px;
+}
+
+.mx-auto {
+  margin: auto;
+}
+
 @media only screen and (max-width: 1250px) {
+  .ostinatoSection .row {
+    flex-direction: column;
+    align-items: center;
+  }
   .ostinatoHeader {
     max-height: 400px;
   }
@@ -107,7 +139,7 @@
   }
 
   .ostinatoContainer {
-    margin: 1rem;
+    margin: 1rem 1rem;
   }
 
   .hideForMobile {
@@ -115,7 +147,7 @@
   }
 
   .ostinatoGap {
-    gap: 1.5rem;
+    gap: 3rem;
   }
   .ostinatoSectionGap {
     gap: 0.75rem;
@@ -139,38 +171,79 @@
     margin: 0 1rem;
   }
 
-  @media only screen and (max-width: 900px) {
-    .topContentRow {
-      grid-template-columns: auto;
-      grid-template-rows: auto auto;
-    }
+  .force340 {
+    max-width: 340px;
+    max-height: 340px;
+  }
 
-    .blueAccordionImage {
-      grid-column: 1;
-      grid-row: 2;
-    }
+  .force430 {
+    max-width: 380px;
+    max-height: 430px;
+  }
+}
 
-    .topContentText {
-      grid-column: 1;
-      grid-row: 1;
-    }
+@media only screen and (max-width: 950px) {
+  .paragraphImagePair {
+    max-width: 100%;
+  }
 
-    .ostinatoContainer {
-      gap: 2rem;
-    }
+  .paragraphImagePair > .row {
+    flex-direction: column;
+  }
 
-    .ostinatoContainer > .row {
-      flex-direction: column;
-      justify-content: center;
-    }
+  .customGridOrientation {
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+  }
 
-    .carouselImage {
-      max-width: 100%;
-      max-height: 100%;
-    }
+  .greenGuitarImage {
+    place-self: center;
+    grid-row: 2;
+  }
 
-    .columnHalf {
-      max-width: 100%;
-    }
+  .topContentRow {
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    gap: 1.5rem;
+  }
+
+  .blueAccordionImage {
+    grid-row: 3;
+  }
+
+  .yellowPianoImage {
+    grid-row: 2;
+  }
+
+  .topContentText {
+    grid-row: 1;
+  }
+
+  .ostinatoContainer {
+    gap: 2rem;
+  }
+
+  .ostinatoContainer > .row {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .carouselImage {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .columnHalf {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .force340 {
+    max-width: 100%;
+  }
+
+  .force430 {
+    max-width: 100%;
   }
 }
