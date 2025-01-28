@@ -14,10 +14,10 @@ const Footer: React.FC<FooterProps> = () => {
           <a href='mailto: laurabfoy@gmail.com'>
             <img src={email} />
           </a>
-          <a href='https://www.instagram.com/laurafoy_ixd/'>
-            <img src={linkedin} />
-          </a>
           <a href='https://www.linkedin.com/in/laura-foy-91715b1bb/'>
+            <img src={linkedin} />
+          </a> 
+          <a href='https://www.instagram.com/laurafoy_ixd/'>
             <img src={instagram} />
           </a>
         </div>

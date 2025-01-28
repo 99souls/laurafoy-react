@@ -1,23 +1,31 @@
-// import ostinato from './../../assets/ProjectListing/ostinato.png';
-// import synergy_learning from './../../assets/ProjectListing/synergy_learning.png';
-// import ProjectDetails from './components/ProjectDetails';
 import ostinato from './../../assets/ProjectListing/ostinato.png';
 import synergy from './../../assets/ProjectListing/synergy.png';
-import ProjectCard from './components/ProjectCard.tsx/ProjectCard';
-import './styles.css';
+import malin_road from './../../assets/CaseStudies/malin_road.png';
 
-const recentWorks = [
+import './styles.css';
+import Card from '../Card/Card';
+
+const caseStudies = [
   {
-    projectURL: 'ostinato', // THIS NEEDS TO BE LOWERCASE!!!
-    vanityTitle: 'Ostinato',
-    projectImage: ostinato,
-    isDarkMode: true,
+    title: '22 MALIN ROAD',
+    description:
+      'A set of logo designs for an airbnb in Moville, County Donegal...',
+    buttonURL: 'malinroad',
+    image: malin_road,
   },
   {
-    projectURL: 'synergy',
-    vanityTitle: 'Synergy Learning Internship',
-    projectImage: synergy,
-    isDarkMode: false,
+    title: 'OSTINATO',
+    description:
+      'For my final year project I designed an app that uses AI technology...',
+    buttonURL: 'ostinato',
+    image: ostinato,
+  },
+  {
+    title: 'SYNERGY LEARNING',
+    description:
+      'As part of my Interaction Design degree, I had the privilege of...',
+    buttonURL: 'synergy',
+    image: synergy,
   },
 ];
 
@@ -26,14 +34,14 @@ const ProjectListing = () => {
     <div className='projectListingContainer'>
       <h2 className='recent-grotesk'>RECENT WORK</h2>
 
-      <div className='projectCardsContainer'>
-        {recentWorks.map((item) => {
+      <div className='cardContainer'>
+        {caseStudies.map(({ title, description, buttonURL, image }) => {
           return (
-            <ProjectCard
-              projectTitle={item.vanityTitle}
-              projectImage={item.projectImage}
-              isDarkMode={item.isDarkMode}
-              projectURL={item.projectURL}
+            <Card
+              title={title}
+              description={description}
+              buttonURL={buttonURL}
+              image={image}
             />
           );
         })}
