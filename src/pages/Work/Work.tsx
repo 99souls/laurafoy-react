@@ -59,9 +59,8 @@ const Work: React.FC<WorkProps> = () => {
   return (
     <>
       <NavBar />
-      <div className='contentContainer'>
+      <div className='contentContainer workContent'>
         <h1>MY WORK</h1>
-
         <div className='cardContainer'>
           {caseStudies.map(({ title, description, buttonURL, image }) => {
             return (
