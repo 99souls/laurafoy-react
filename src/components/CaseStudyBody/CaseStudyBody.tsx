@@ -6,6 +6,7 @@ interface CaseStudyBodyProps {
   bodyCopy: string;
   optionalBodyImage?: string;
   imageSource: string;
+  secondImageSource?: string;
 }
 
 const CaseStudyBody: React.FC<CaseStudyBodyProps> = ({
@@ -14,6 +15,7 @@ const CaseStudyBody: React.FC<CaseStudyBodyProps> = ({
   bodyCopy,
   optionalBodyImage,
   imageSource,
+  secondImageSource,
 }) => {
   const classNames = optionalBodyImage ? 'hasBodyImage' : '';
   return (
@@ -37,6 +39,7 @@ const CaseStudyBody: React.FC<CaseStudyBodyProps> = ({
         </div>
       </div>
       <img src={imageSource} />
+      {secondImageSource ? <img src={secondImageSource} /> : ''}
     </div>
   );
 };

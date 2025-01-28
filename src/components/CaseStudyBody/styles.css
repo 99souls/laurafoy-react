@@ -31,6 +31,10 @@
   gap: 3em;
 }
 
+.caseStudyBodyContainer > img {
+  border-radius: 12px;
+}
+
 @media only screen and (max-width: 950px) {
   .caseStudyBodyContainer {
     margin: 0 1.5rem;
