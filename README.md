@@ -2,13 +2,16 @@
 
 because more complexity always makes things better right!?
 
-## NODE V22.13.1
+## DEPENDENCIES
 
-## NPM 11.0.0
+> NODE V22.13.1 <br>
+> NPM 11.0.0
 
-`npm install`
-`npm run dev`
+## TO RUN LOCALLY
 
-# DEPLOYMENT
+ `npm install` <br>
+ `npm run dev`
+
+## TO DEPLOY
 
 `npm run deploy`
