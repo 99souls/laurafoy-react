@@ -12,6 +12,7 @@ because more complexity always makes things better right!?
  `npm install` <br>
  `npm run dev`
 
-## TO DEPLOY
+## TO DEPLOY (IF DEPLOYING TO FIREBASE)
 
+`npm install -g firebase-tools`<br>
 `npm run deploy`
