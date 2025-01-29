@@ -15,4 +15,7 @@ because more complexity always makes things better right!?
 ## TO DEPLOY (IF DEPLOYING TO FIREBASE)
 
 `npm install -g firebase-tools`<br>
+`firebase login` <br>
+`firebase init` (hosting, create new or use existing project, dist, yes, no, no) <br>
+
 `npm run deploy`
