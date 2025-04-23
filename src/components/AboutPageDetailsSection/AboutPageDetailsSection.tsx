@@ -9,7 +9,7 @@ const AboutPageDetailsSection = () => {
       <div className='aboutPageTextContainer'>
         <h1 className='recent-grotesk'>ABOUT ME</h1>
         <p className='fs-24 fw-500'>
-          I'm Laura Foy, a visual designer who loves designing accessible and
+          I'm Laura Foy, a UX/UI designer who loves designing accessible and
           intuitive interfaces in bold, exciting and imaginative ways. I enjoy
           solving problems with style and creativity, aiming to go above and
           beyond to create user experiences that not only serve users' needs but

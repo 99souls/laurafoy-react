@@ -8,10 +8,25 @@ import malin_road from './../../assets/CaseStudies/malin_road.png';
 import times_new_roman from './../../assets/CaseStudies/times_new_roman.png';
 import screen_time from './../../assets/CaseStudies/screen_time.png';
 import yum_goods from './../../assets/CaseStudies/yum_goods.png';
+import manifesto from './../../assets/CaseStudies/manifesto.png';
 
 interface WorkProps {}
 
 const caseStudies = [
+  {
+    title: 'YUM GOODS',
+    description:
+      'A responsive and aesthetic home page design for an online retailer...',
+    buttonURL: 'yumgoods',
+    image: yum_goods,
+  },
+  {
+    title: '22 MALIN ROAD',
+    description:
+      'A set of logo designs for an airbnb in Moville, County Donegal...',
+    buttonURL: 'malinroad',
+    image: malin_road,
+  },
   {
     title: 'OSTINATO',
     description:
@@ -27,12 +42,6 @@ const caseStudies = [
     image: synergy,
   },
   {
-    title: 'TIMES NEW ROMAN TYPE SPECIMEN',
-    description: 'A design project showcasing a...',
-    buttonURL: 'timesnewroman',
-    image: times_new_roman,
-  },
-  {
     title: 'SCREEN TIME INFOGRAPHIC',
     description:
       'An infographic illustrating the effects of screen time and...',
@@ -40,18 +49,17 @@ const caseStudies = [
     image: screen_time,
   },
   {
-    title: 'YUM GOODS',
-    description:
-      'A responsive and aesthetic home page design for an online retailer...',
-    buttonURL: 'yumgoods',
-    image: yum_goods,
+    title: 'TNR TYPE SPECIMEN',
+    description: 'A design project showcasing a classic typeface...',
+    buttonURL: 'timesnewroman',
+    image: times_new_roman,
   },
   {
-    title: '22 MALIN ROAD',
+    title: 'MANIFESTO',
     description:
-      'A set of logo designs for an airbnb in Moville, County Donegal...',
-    buttonURL: 'malinroad',
-    image: malin_road,
+      'My first graphic design project, showcasing the manifesto of...',
+    buttonURL: 'manifesto',
+    image: manifesto,
   },
 ];
 

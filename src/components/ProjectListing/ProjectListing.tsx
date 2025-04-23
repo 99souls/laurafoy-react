@@ -1,11 +1,18 @@
 import ostinato from './../../assets/ProjectListing/ostinato.png';
-import synergy from './../../assets/ProjectListing/synergy.png';
+import yum_goods from './../../assets/ProjectListing/yum_goods.png';
 import malin_road from './../../assets/CaseStudies/malin_road.png';
 
 import './styles.css';
 import Card from '../Card/Card';
 
 const caseStudies = [
+  {
+    title: 'YUM GOODS',
+    description:
+      'A responsive and aesthetic home page design for an online retailer...',
+    buttonURL: 'yumgoods',
+    image: yum_goods,
+  },
   {
     title: '22 MALIN ROAD',
     description:
@@ -19,13 +26,6 @@ const caseStudies = [
       'For my final year project I designed an app that uses AI technology...',
     buttonURL: 'ostinato',
     image: ostinato,
-  },
-  {
-    title: 'SYNERGY LEARNING',
-    description:
-      'As part of my Interaction Design degree, I had the privilege of...',
-    buttonURL: 'synergy',
-    image: synergy,
   },
 ];
 

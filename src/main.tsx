@@ -13,6 +13,8 @@ import TimesNewRoman from './pages/TimesNewRoman/TimesNewRoman';
 import ScreenTime from './pages/ScreenTime/ScreenTime';
 import YumGoods from './pages/YumGoods/YumGoods';
 import MalinRoad from './pages/MalinRoad/MalinRoad';
+import Manifesto from './pages/Manifesto/Manifesto';
+
 
 const router = createBrowserRouter([
   {
@@ -50,6 +52,10 @@ const router = createBrowserRouter([
   {
     path: 'malinroad',
     element: <MalinRoad />,
+  },
+  {
+    path: 'manifesto',
+    element: <Manifesto />,
   },
   {
     path: '*',

@@ -55,17 +55,17 @@ const NavBar: React.FC<NavBarProps> = ({ hideNavButtons }) => {
           </NavItem>
           <NavItem
             classNames='recent-grotesk fw-700 fs-32 nav-item'
-            navURL={'/about'}
-            isCurrentPage={getIsCurrentPage('/about')}
-          >
-            ABOUT
-          </NavItem>
-          <NavItem
-            classNames='recent-grotesk fw-700 fs-32 nav-item'
             navURL={'/work'}
             isCurrentPage={getIsCurrentPage('/work')}
           >
             WORK
+          </NavItem>
+          <NavItem
+            classNames='recent-grotesk fw-700 fs-32 nav-item'
+            navURL={'/about'}
+            isCurrentPage={getIsCurrentPage('/about')}
+          >
+            ABOUT
           </NavItem>
         </div>
       )}
