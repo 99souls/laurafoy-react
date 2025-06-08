@@ -5,10 +5,11 @@ import Card from '../../components/Card/Card';
 import ostinato from './../../assets/ProjectListing/ostinato.png';
 import synergy from './../../assets/ProjectListing/synergy.png';
 import malin_road from './../../assets/CaseStudies/malin_road.png';
-import times_new_roman from './../../assets/CaseStudies/times_new_roman.png';
 import screen_time from './../../assets/CaseStudies/screen_time.png';
 import yum_goods from './../../assets/CaseStudies/yum_goods.png';
-import manifesto from './../../assets/CaseStudies/manifesto.png';
+import lines from './../../assets/CaseStudies/lines.png';
+
+
 
 interface WorkProps {}
 
@@ -49,17 +50,11 @@ const caseStudies = [
     image: screen_time,
   },
   {
-    title: 'TNR TYPE SPECIMEN',
-    description: 'A design project showcasing a classic typeface...',
-    buttonURL: 'timesnewroman',
-    image: times_new_roman,
-  },
-  {
-    title: 'MANIFESTO',
+    title: 'LINES OF ARCHITECTURE',
     description:
-      'My first graphic design project, showcasing the manifesto of...',
-    buttonURL: 'manifesto',
-    image: manifesto,
+      'A design project exploring the transition from function to...',
+    buttonURL: 'lines',
+    image: lines,
   },
 ];
 
