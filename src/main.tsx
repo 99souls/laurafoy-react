@@ -9,11 +9,10 @@ import PageNotFound from './pages/PageNotFound/PageNotFound';
 import Synergy from './pages/Synergy/Synergy';
 import Work from './pages/Work/Work';
 import { StrictMode } from 'react';
-import TimesNewRoman from './pages/TimesNewRoman/TimesNewRoman';
 import ScreenTime from './pages/ScreenTime/ScreenTime';
 import YumGoods from './pages/YumGoods/YumGoods';
 import MalinRoad from './pages/MalinRoad/MalinRoad';
-import Manifesto from './pages/Manifesto/Manifesto';
+import Lines from './pages/Lines/Lines';
 
 
 const router = createBrowserRouter([
@@ -38,10 +37,6 @@ const router = createBrowserRouter([
     element: <Work />,
   },
   {
-    path: 'timesnewroman',
-    element: <TimesNewRoman />,
-  },
-  {
     path: 'screentime',
     element: <ScreenTime />,
   },
@@ -54,8 +49,8 @@ const router = createBrowserRouter([
     element: <MalinRoad />,
   },
   {
-    path: 'manifesto',
-    element: <Manifesto />,
+    path: 'lines',
+    element: <Lines />,
   },
   {
     path: '*',
