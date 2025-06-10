@@ -13,8 +13,8 @@ const YumGoods: React.FC<YumGoodsProps> = () => {
       <div className='caseStudyContentContainer'>
         <CaseStudyBody
           title='YUM GOODS'
-          subtitle='A responsive and aesthetic home page design for an online retailer specialising in homeware and gifts handmade by artists from around the world.'
-          bodyCopy='The brief for this project came from Briefbox. It was to design a simple logo and a responsive homepage theme for an e-commerce homeware-gift store called Yum Goods. I endevoured to create a design that has a Pinteresty, progressive, minimalistic and retro vibe as requested but with a fresh and artistic flair, while ensuring that the UI of the webpage remained accessible.'
+          subtitle='A responsive and visually engaging homepage design for an online retailer that specialises in handmade homeware and gifts from artists around the world.'
+          bodyCopy='This project came from a Briefbox brief to design a simple logo and a responsive homepage theme for an online homeware-gift store called Yum Goods. They were after something Pinterest-inspired, progressive and minimalistic, with a retro touch. I aimed to bring this to life with a warm and artistic feel, while ensuring the design stayed clear, accessible and easy to navigate.'
           imageSource={yum_goods}
           secondImageSource={yum_goods_2}
         />

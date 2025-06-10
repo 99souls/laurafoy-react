@@ -5,13 +5,29 @@ import Card from '../../components/Card/Card';
 import ostinato from './../../assets/ProjectListing/ostinato.png';
 import synergy from './../../assets/ProjectListing/synergy.png';
 import malin_road from './../../assets/CaseStudies/malin_road.png';
-import times_new_roman from './../../assets/CaseStudies/times_new_roman.png';
 import screen_time from './../../assets/CaseStudies/screen_time.png';
 import yum_goods from './../../assets/CaseStudies/yum_goods.png';
+import lines from './../../assets/CaseStudies/lines.png';
+
+
 
 interface WorkProps {}
 
 const caseStudies = [
+  {
+    title: 'YUM GOODS',
+    description:
+      'A responsive and aesthetic home page design for an online retailer...',
+    buttonURL: 'yumgoods',
+    image: yum_goods,
+  },
+  {
+    title: '22 MALIN ROAD',
+    description:
+      'A set of logo designs for an airbnb in Moville, County Donegal...',
+    buttonURL: 'malinroad',
+    image: malin_road,
+  },
   {
     title: 'OSTINATO',
     description:
@@ -27,12 +43,6 @@ const caseStudies = [
     image: synergy,
   },
   {
-    title: 'TIMES NEW ROMAN TYPE SPECIMEN',
-    description: 'A design project showcasing a...',
-    buttonURL: 'timesnewroman',
-    image: times_new_roman,
-  },
-  {
     title: 'SCREEN TIME INFOGRAPHIC',
     description:
       'An infographic illustrating the effects of screen time and...',
@@ -40,18 +50,11 @@ const caseStudies = [
     image: screen_time,
   },
   {
-    title: 'YUM GOODS',
+    title: 'LINES OF ARCHITECTURE',
     description:
-      'A responsive and aesthetic home page design for an online retailer...',
-    buttonURL: 'yumgoods',
-    image: yum_goods,
-  },
-  {
-    title: '22 MALIN ROAD',
-    description:
-      'A set of logo designs for an airbnb in Moville, County Donegal...',
-    buttonURL: 'malinroad',
-    image: malin_road,
+      'A design project exploring the transition from function to...',
+    buttonURL: 'lines',
+    image: lines,
   },
 ];
 
